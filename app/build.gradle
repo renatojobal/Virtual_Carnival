@@ -9,13 +9,15 @@ android {
 
     // Version code
     def versionMajor = 1
-    def versionMinor = 0
+    def versionMinor = 1
     def versionPatch = 0
 
     defaultConfig {
         applicationId "com.renatojobal.virtualcarnival"
         minSdkVersion 23
         targetSdkVersion 30
+
+        // Version name
         versionCode versionMajor * 10000
         + versionMinor * 100
         + versionPatch
